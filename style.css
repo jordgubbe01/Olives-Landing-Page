@@ -1,0 +1,278 @@
+html, body {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #d4edf4;
+}
+
+#header {
+  display:flex;
+  height: 70px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: #d4edf4;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+nav {
+  display: flex;
+  gap: 12px;
+  height: 70px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+  align-self: flex-start;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+ nav a:link {
+  color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+nav a:visited {
+  color: #362706;
+  text-decoration: none;
+}
+
+/* mouse over link */
+nav a:hover {
+  color: #362706;
+  box-shadow: #ffffff;
+  text-decoration: none;
+}
+
+/* selected link */
+nav a:active {
+  color: #362706;
+  text-decoration: none;
+}
+.imgl {
+  object-fit: cover;
+  height: 70px;
+  width: 300px;
+}
+
+.img1 {
+ 
+  background-repeat: no-repeat;
+  height: 100%;
+
+  background-size: cover;
+  position: relative;
+  top: -30px;
+}
+
+.entry {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+  width: auto;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #362706;
+}
+
+.entry2 {
+  margin: 0 auto;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 40px;
+  color: 	#D2A057;
+  text-align: center;
+}
+.form {
+  margin: 0 auto;
+  font-family: Verdana;
+  font-size: 20px;
+  text-align: center;
+}
+
+.demo-wrap {
+  position: relative;
+}
+
+.demo-wrap:before {content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+                   margin-top: -30px;
+  opacity: 0.4;
+   background-image: url(http://sawoman.com/wp-content/uploads/2015/11/Oliveorchard2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;}
+
+.continue {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+  width: auto;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #362706;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+#OliveGH {
+  margin: -100px auto 0 auto;
+  text-align: center;
+  padding-top: 150px;
+  width: auto;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #362706;
+}
+
+.OliveG {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+}
+
+.images {
+  width: 25%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 8px;
+  padding: 0 4px;
+  border-radius: 10px;
+  border: 
+}
+
+.price {
+   margin:  0 auto;
+  text-align: center;
+  padding-top: 20px;
+  width: auto;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  color: #362706;
+}
+
+#contact {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: px;
+  width: auto;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #362706;
+}
+
+ .foa a:link {
+  color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+.foa a:visited {
+  color: #362706;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.foa a:hover {
+  color: #362706;
+  box-shadow: #ffffff;
+  text-decoration: none;
+}
+
+/* selected link */
+.foa a:active {
+  color: #362706;
+  text-decoration: none;
+}
+.footer {
+  margin: 0 auto;
+  text-align: center;
+  margin-left: auto;
+}
+.price2 {
+  margin:  0 auto;
+  text-align: center;
+  padding-top: 10px;
+  width: auto;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  color: #362706;
+  margin-bottom: 20px;
+}
+.social-icons {
+  display: grid;
+  font-size: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.GridLabel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  width: clamp(500px, 60vw, 800px);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.Block1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+} 
+
+.Block2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+} 
+  .Block3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+} 
+  
+  .B {
+    height: 150px;
+    background-color: #d4edf4;
+    border: 2px solid #362706;
+    text-align: center;
+  }
+
+.GridLabel hr {
+  height: 2px;
+  background-color: #362706;
+}
+
+.GridLabel p, .GridLabel h1 {
+  color: #362706;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.GridLabel p {
+  font-size: 20px;
+}
+
+.GridLabel h1 {
+  font-size: 2rem
+}
